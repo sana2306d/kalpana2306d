@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigeon | Origami For All</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<link rel="stylesheet" href="../style.css">
+<style>
+    .detail img{
+        height: 60%;
+    }
+</style>
+</head>
+<body>
+  <input type="checkbox" name="navbtn" id="navbtn">
+  <div class="sidebar-nav">
+     <div class="image">
+      <img src="../Untitled.png" alt="">
+     </div>
+     <div class="close">
+      <label for="navbtn"> <i class="fa-solid fa-xmark close-icon"></i></label>
+     </div>
+     <center>
+      <ul>
+        <li><a href="../../../index.html">Home</a></li>
+        <li><a href="../../../aboutus.html">About Us</a></li>
+        <li><a href="../../../contact.html">Contact Us</a></li>
+        <li><a href="../../../feedback.html">Feedback</a></li>
+        <li><a href="../../../gallery.html">Gallery</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Category 1
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../../kids.html">Easy For Kid</a>
+            <a class="dropdown-item" href="../../adult.html">Complex For Adults</a>
+         
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Category 2
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../../animal.html">Animals</a>
+            <a class="dropdown-item" href="../../birds.html">Birds</a>
+            <a class="dropdown-item" href="../../Tanimal.html">Terrestial Animals</a>
+            <a class="dropdown-item" href="../../flower.html">Flowers</a>
+            <a class="dropdown-item" href="../../toys.html">Toys</a>
+            <a class="dropdown-item" href="../../basket.html">Baskets</a>
+            <a class="dropdown-item" href="../../heart.html">Hearts</a>
+            <a class="dropdown-item" href="../../.html">Geometry</a>
+            <a class="dropdown-item" href="../../sea.html">Sea Life</a>
+            <a class="dropdown-item" href="../../aeroplane.html">Airplanes</a>
+          </div>
+        </li>
+      </ul>
+     </center>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ms-4" href="#"><img  src="../Untitled.png" height="100%" width="80px" alt="">
+        </a>
+        <a href="" class="navbar-brand ">
+          <h4 style="color: #04a2d6;">OrigamiForAll</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <label for="navbtn"><span style="cursor: pointer;" class="navbar-toggler-icon "></span></label>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="../../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../../aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../../contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../../feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="../../../gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Category 1
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../../kids.html">Easy For Kid</a>
+                <a class="dropdown-item" href="../../adult.html">Complex For Adults</a>
+             
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Category 2
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../../animal.html">Animals</a>
+                <a class="dropdown-item" href="../../birds.html">Birds</a>
+                <a class="dropdown-item" href="../../Tanimal.html">Terrestial Animals</a>
+                <a class="dropdown-item" href="../../flower.html">Flowers</a>
+                <a class="dropdown-item" href="../../toys.html">Toys</a>
+                <a class="dropdown-item" href="../../basket.html">Baskets</a>
+                <a class="dropdown-item" href="../../heart.html">Hearts</a>
+                <a class="dropdown-item" href="../../geometry.html">Geometry</a>
+                <a class="dropdown-item" href="../../sea.html">Sea Life</a>
+                <a class="dropdown-item" href="../../aeroplane.html">Airplanes</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sidebar"><br>
+        <center><ul>
+          <li><a href="../../toys.html">Toys</a></li>
+          <li><a href="../../flower.html">Flowers</a></li>
+          <li><a href="../../basket.html">Baskets</a></li>
+          <li><a href="../../aeroplane.html">Aerolplane</a></li>
+          <li><a href="../../heart.html">Hearts</a></li>
+          <li><a href="../../birds.html">Birds</a></li>
+          <li><a href="../../animal.html">Animals</a></li>
+          <li><a href="../../geometry.html">Geometry</a></li>
+          <li><a href="../../Tanimal.html">Terrestial Animals</a></li>
+          <li><a href="../../sea.html">Sea Life</a></li>
+          <li><a href="../../kids.html">Easy for Kids</a></li>
+          <li><a href="../../adult.html">Complex for Elders</a></li>
+        </ul></center>
+      </div>
+      <div class="main-content">
+    <div class="container animals steps">
+        <center><h1>Easy Origami Pigeon Making</h1></center>
+        <p> Learn how to make origami birds with these easy to follow instructions. 
+            It's a good place to begin to master the basic techniques, which you can then use in other origami bird projects.
+            Historically, the paper birds symbolize hope and peace.
+             </p>
+     </div>
+     <div class="container steps">
+        <center><h1 class="steps">Step 1</h1></center><br>
+        <div class="step1 container detail">
+            <img class="steps-image" src="./images/st1.jpg" alt="">
+               <p>Commence by acquiring a square piece of origami paper. If you don't have one at hand, you can easily convert a standard 8.5x11 sheet into a square shape by carefully following the included instructions. For an added creative touch, you can also choose to use vibrant and eye-catching printable origami paper.</p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 2</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st2.jpg" alt="">
+          <p>Fold the paper in half from the top corner down to the bottom corner, shaping it into an upside-down triangle.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 3</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st3.jpg" alt="">
+          <p >Gently fold a portion of the top down, positioning the edge at approximately the halfway point. Be mindful not to make this flap excessively thin since it will ultimately serve as the wings for your origami creation.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 4</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st4.jpg" alt="">
+          <p >Now, take a deliberate moment to flip the paper over to its other side. This simple yet intentional action is a precursor to the subsequent steps in the origami process, laying the foundation for your creative journey.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 5</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st5.jpg" alt="">
+          <p >Lift the bottom corner of the upper layer and carefully fold it upwards in the manner demonstrated in the illustration provided. This maneuver is integral to shaping the intricate form of your origami creation, so take your time and ensure precision in your fold.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 6</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st6.jpg" alt="">
+          <p >In Step 6, we progress towards achieving a harmonious balance in your origami creation. Carefully fold the left side over to meet the right side, ensuring a seamless union of both halves. This precise fold not only enhances the symmetry but also sets the stage for the final touches in your intricate origami masterpiece. Take your time and enjoy the process
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 7</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st7.jpg" alt="">
+          <p > Next, fold that same flap backward, following the demonstrated technique, in order to shape one of the wings of your origami creation. This fold is a significant part of the creative process, contributing to the distinctive appearance of your intricate origami design.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 8</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st8.jpg" alt="">
+          <p >Similarly, fold the other wing back using the same method as demonstrated. This step is essential in creating the symmetrical appearance of your origami design, ensuring that both wings are aligned and visually pleasing. Take your time to achieve a balanced and harmonious result.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 9</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st9.jpg" alt="">
+          <p >Gently push the center of the head inward, then flatten it. This technique is known as an "inside reverse fold" and plays a crucial role in refining the appearance of your origami creation, giving it depth and dimension. Careful execution of this step is key to achieving a polished result in your artistic endeavor.
+          </p>
+                
+                </div>
+              </div>
+        <div class="container steps">
+        <center><h1 class="steps">Step 10</h1></center><br>
+        <div class="step1 container detail">
+          <img class="steps-image" src="./images/st10.jpg" alt="">
+          <p > Voila! You've successfully crafted a delightful bird with your origami skills. While it's tempting to set it free into the sky, I jest. In reality, if you were to throw it into the air, it would gracefully glide down, leaving you slightly disappointed. Enjoy your artful creation right where it belongs – in your hands!
+          </p>
+                
+                </div>
+              </div>
+                        
+                    
+       
+                         
+                   
+
+                             <div class="container  steps" ">
+                          <center><H3>Last Step:</H3></center>
+                         <div class="container detail">
+                                                                                    
+                     <p> Draw some eyes and whiskers!                                                         
+                        </p>
+                        <img class="steps-image-1" src="./images/st10.jpg" alt="">
+                      </div>    
+                         </div>  
+                           <div class="container" style="width: 100%; height: 200px;"></div>
+                          
+                             </div>                                                   
+                                                                            
+                        
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+                    
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+               integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+             </script>                      
+</body>
+</html>

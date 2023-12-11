@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | Origami For All</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> 
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+<style>
+ .input:has(#email:invalid){
+  border: 2px solid red;
+ }
+ .input:has(#num:invalid){
+  border: 2px solid red;
+ }
+
+</style>
+</head>
+<body>
+  <header>
+    <input type="checkbox" name="navbtn" id="navbtn">
+    <div class="sidebar-nav">
+       <div class="image">
+        <img src="./images/logo/Untitled.png" alt="">
+       </div>
+       <div class="close">
+        <label for="navbtn"> <i class="fa-solid fa-xmark close-icon"></i></label>
+       </div>
+       <center>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Category 1
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./Categories/kids.html">Easy For Kid</a>
+              <a class="dropdown-item" href="./Categories/adult.html">Complex For Adults</a>
+           
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Category 2
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./Categories/animal.html">Animals</a>
+              <a class="dropdown-item" href="./Categories/birds.html">Birds</a>
+              <a class="dropdown-item" href="./Categories/Tanimal.html">Terrestial Animals</a>
+              <a class="dropdown-item" href="./Categories/flower.html">Flowers</a>
+              <a class="dropdown-item" href="./Categories/toys.html">Toys</a>
+              <a class="dropdown-item" href="./Categories/basket.html">Baskets</a>
+              <a class="dropdown-item" href="./Categories/heart.html">Hearts</a>
+              <a class="dropdown-item" href="./Categories/geometry.html">Geometry</a>
+              <a class="dropdown-item" href="./Categories/sea.html">Sea Life</a>
+              <a class="dropdown-item" href="./Categories/aeroplane.html">Airplanes</a>
+            </div>
+          </li>
+        </ul>
+       </center>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ms-4" href="#"><img  src="./images/logo/Untitled.png" height="100%" width="80px" alt="">
+        </a>
+        <a href="" class="navbar-brand ">
+          <h4 style="color: #04a2d6;">OrigamiForAll</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDrop" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <label for="navbtn"><span style="cursor: pointer;" class="navbar-toggler-icon "></span></label>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Category 1
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./Categories/kids.html">Easy For Kid</a>
+                <a class="dropdown-item" href="./Categories/adult.html">Complex For Adults</a>
+             
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Category 2
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./Categories/animal.html">Animals</a>
+                <a class="dropdown-item" href="./Categories/birds.html">Birds</a>
+                <a class="dropdown-item" href="./Categories/Tanimal.html">Terrestial Animals</a>
+                <a class="dropdown-item" href="./Categories/flower.html">Flowers</a>
+                <a class="dropdown-item" href="./Categories/toys.html">Toys</a>
+                <a class="dropdown-item" href="./Categories/basket.html">Baskets</a>
+                <a class="dropdown-item" href="./Categories/heart.html">Hearts</a>
+                <a class="dropdown-item" href="./Categories/geometry.html">Geometry</a>
+                <a class="dropdown-item" href="./Categories/sea.html">Sea Life</a>
+                <a class="dropdown-item" href="./Categories/aeroplane.html">Airplanes</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <div id="pop" class="pop-up">
+    <div class="pop1">
+       <span id="close" class="close">&times;</span>
+ <div class="heading">
+  Your Form is Submited. We Will Contact You As Soon As Possible. Thank  You!
+ </div>
+    </div>
+  </div>
+ <div id="feedmain2" class="wrapper-contact">
+
+<div class="main-contact">
+    <center>  <h3 >
+        Feedback Us  
+    </h3>
+
+    <div class="input">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Enter Your Name" required id="name">
+        
+    </div><br>
+    <div class="input">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Enter Your Email" required id="email">
+    </div><br>
+    <div class="input">
+        <i class="fa-solid fa-phone"></i>
+        <input type="tel" placeholder="XXXX-XXXXXXX" id="num" required pattern="[0-9]{4}-[0-9]{7}">
+    </div><br>
+
+    <div class="input2">
+        <textarea style="resize: none;" name="" id="" cols="38" rows="10" placeholder="Type your Feedback"></textarea>
+    </div><br>
+    <button class="button" id="mybtn" onclick="validatio()" type="button">Submit</button>
+    <br>
+</center>
+</div>
+
+<div id="feedside" class="side">
+    <h3 class="animate__animated animate__pulse animate__infinite	infinite" >
+     Your Feedback will help us
+    </h3>
+    
+    </div>
+ </div>
+
+ <div id="feedmain" class="wrapper-contact">
+  <div id="feedside" class="side">
+    <h3 class="animate__animated animate__pulse animate__infinite	infinite" >
+     Your Feedback will help us
+    </h3>
+    
+    </div>
+
+  <div class="main-contact">
+      <center>  <h3 >
+          Feedback Us  
+      </h3>
+  
+      <div class="input">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Enter Your Name" required id="name">
+      </div><br>
+      <div class="input">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Enter Your Email" required id="email">
+      </div><br>
+      <div class="input">
+          <i class="fa-solid fa-phone"></i>
+          <input type="tel" placeholder="XXXX-XXXXXXX" id="num" required pattern="[0-9]{4}-[0-9]{7}">
+      </div><br>
+  
+      <div class="input2">
+          <textarea style="resize: none;" name="" id="" cols="25" rows="8" placeholder="Type your Feedback"></textarea>
+      </div><br>
+      <button class="button" id="mybtn" onclick="validatio()" type="button">Submit</button>
+      <br>
+  </center>
+  </div>
+  
+
+   </div>
+ 
+  <script>
+    var pop = document.getElementById("pop")
+    var but = document.getElementById("btn")
+    var clos = document.getElementById("close")
+    var naame = document.getElementById("name")
+    var email = document.getElementById("email")
+    var num = document.getElementById("num")
+    
+    function validatio(){
+  if(naame.value == ""){
+    alert("Please Enter Name")
+  }
+  else if (email.value == ""){
+    alert("Please Enter Email Adress")
+   
+  }
+  else if(num.value == ""){
+    alert("Please Enter Number")
+
+  }
+  else {
+ 
+    pop.style.display = "block";
+    
+  }
+
+ 
+
+ 
+
+ 
+ }
+    
+ window.onclick = function(event) {
+  if (event.target == pop) {
+    pop.style.display = "none";
+    window.location.href = "index.html"
+
+  }
+  clos.onclick = function() {
+  pop.style.display = "none";
+  window.location.href = "index.html"
+}
+}
+    </script>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+                    
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+               integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+             </script>                      
+</body>
+</html>

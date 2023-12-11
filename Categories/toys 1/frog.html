@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frog | Origami For All</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="./style.css">
+<style>
+  @media  screen and (max-width: 992px) {
+  .navbar{
+    height: 85px;
+  }
+  .sidebar{
+    margin-top: 85px;
+  }
+
+}
+@media screen and (max-width:990px) and (min-width: 751px) {
+.main-content{
+  margin-left: auto;
+  margin-right: 100px;
+}
+}
+@media  screen and (max-width: 992px) and (min-width: 541px) {
+  .navbar{
+    height: 85px;
+  }
+  .sidebar{
+    margin-top: 85px;
+  }
+   .detail{
+    height: 150px;
+   }
+   .detail p{
+    font-size: 13px;
+   }
+   .steps-image{
+    height: 60%;
+    width: 20%;
+  }
+
+  .steps-image-1{
+    height: 60%;
+    width: 20%;
+  }
+  .animals{
+    padding-top: 85px;
+    
+  }
+
+}
+@media screen and (max-width: 540px) {
+  *{
+    font-size: 10px;
+  }
+  .detail{
+    height: 100px;
+  }
+  .steps-image{
+    height: 70%;
+    width: 20%;
+  }
+  .steps-image-1{
+    height: 70%;
+    width: 20%;
+  }
+}
+
+.animals{
+  padding-top: 85px;
+}
+.main-content{
+  width: 69%;
+  float: right;
+}
+@media screen and (max-width: 750px)
+{
+  *{
+    font-size: 15px;
+  }
+  .sidebar{
+    display: none;
+  }
+  body{
+    background-color: #e8fcff;
+  }
+  .main-content{
+    float: none;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  }
+
+
+  .steps{
+    border: none;
+    
+  }
+.detail{
+height: 120px;
+}}
+.detail{
+  border: 2px solid black;
+}
+</style>
+</head>
+<body>
+  <input type="checkbox" name="navbtn" id="navbtn">
+  <div class="sidebar-nav">
+    <div class="image">
+     <img src="../../images/logo/Untitled.png" alt="">
+    </div>
+    <div class="close">
+     <label for="navbtn"> <i class="fa-solid fa-xmark close-icon"></i></label>
+    </div>
+    <center>
+     <ul>
+       <li><a href="../../index.html">Home</a></li>
+       <li><a href="../../aboutus.html">About Us</a></li>
+       <li><a href="../../contact.html">Contact Us</a></li>
+       <li><a href="../../feedback.html">Feedback</a></li>
+       <li><a href="../../gallery.html">Gallery</a></li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Category 1
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           <a class="dropdown-item" href="../kids.html">Easy For Kid</a>
+           <a class="dropdown-item" href="../adult.html">Complex For Adults</a>
+        
+         </div>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Category 2
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../animal.html">Animals</a>
+          <a class="dropdown-item" href="../birds.html">Birds</a>
+          <a class="dropdown-item" href="../Tanimal.html">Terrestial Animals</a>
+          <a class="dropdown-item" href="../flower.html">Flowers</a>
+          <a class="dropdown-item" href="../toys.html">Toys</a>
+          <a class="dropdown-item" href="../basket.html">Baskets</a>
+          <a class="dropdown-item" href="../heart.html">Hearts</a>
+          <a class="dropdown-item" href="../geometry.html">Geometry</a>
+          <a class="dropdown-item" href="../sea.html">Sea Life</a>
+          <a class="dropdown-item" href="../aeroplane.html">Airplanes</a>
+         </div>
+       </li>
+     </ul>
+    </center>
+ </div>
+   <nav class="navbar navbar-expand-lg navbar-light">
+       <a class="navbar-brand ms-4" href="#"><img  src="../../images/logo/Untitled.png" height="100%" width="80px" alt="">
+       </a>
+       <a href="" class="navbar-brand ">
+         <h4 style="color: #04a2d6;">OrigamiForAll</h4>
+       </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <label for="navbtn"><span style="cursor: pointer;" class="navbar-toggler-icon "></span></label>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav ms-auto me-5">
+           <li class="nav-item active">
+             <a class="nav-link" href="../../index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../../aboutus.html">About us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../../contact.html">Contact</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../../feedback.html">Feedback</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="../../gallery.html">Gallery</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category 1
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="../kids.html">Easy For Kid</a>
+               <a class="dropdown-item" href="../adult.html">Complex For Adults</a>
+            
+             </div>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category 2
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="../animal.html">Animals</a>
+               <a class="dropdown-item" href="../birds.html">Birds</a>
+               <a class="dropdown-item" href="../Tanimal.html">Terrestial Animals</a>
+               <a class="dropdown-item" href="../flower.html">Flowers</a>
+               <a class="dropdown-item" href="../toys.html">Toys</a>
+               <a class="dropdown-item" href="../basket.html">Baskets</a>
+               <a class="dropdown-item" href="../heart.html">Hearts</a>
+               <a class="dropdown-item" href="../geometry.html">Geometry</a>
+               <a class="dropdown-item" href="../sea.html">Sea Life</a>
+               <a class="dropdown-item" href="../aeroplane.html">Airplanes</a>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </nav>
+
+     <div class="sidebar"><br>
+       <center><ul>
+         <li><a href="../toys.html">Toys</a></li>
+         <li><a href="../flower.html">Flowers</a></li>
+         <li><a href="../basket.html">Baskets</a></li>
+         <li><a href="../aeroplane.html">Aerolplane</a></li>
+         <li><a href="../heart.html">Hearts</a></li>
+         <li><a href="../birds.html">Birds</a></li>
+         <li><a href="../animal.html">Animals</a></li>
+         <li><a href="../geometry.html">Geometry</a></li>
+         <li><a href="../Tanimal.html">Terrestial Animals</a></li>
+         <li><a href="../sea.html">Sea Life</a></li>
+         <li><a href="../kids.html">Easy for Kids</a></li>
+         <li><a href="../adult.html">Complex for Elders</a></li>
+       </ul></center>
+     </div>
+     <div class="main-content">
+    <div class="container animals">
+        <center><h1>How to make an easy origami frog?</h1></center>
+        <p>This paper frog is so much fun to make, aside from the fact that you can use it as part of your games, and everyone will enjoy it and have so much fun. Do not hesitate to follow the easy step-by-step folding process to make this origami frog because, as you know, it will all be worth it.
+            If you consider teaching your kids how to do the folding process of this frog origami, make sure that they will be more attentive because it has a lot of crucial folds, but kids can do it. As long as there is an adult to supervise and relay the guidelines in folding.
+            Follow the steps below to create your own paper frog.</p>
+     </div>
+     <div class="container  steps">
+        <center><H3>STEP 1:</H3></center>
+        <div class="container detail">
+            <img class="steps-image" src="./toys/images/f1.jpg" alt="">
+            <p>Start with a regular piece of rectangle paper. An 8.5x11 paper is fine.</p>
+        </div>    
+        </div>
+    
+        <div class="container  steps">
+            <center><H3>STEP 2:</H3></center>
+            <div class="container detail">
+                <img class="steps-image" src="./toys/images/f2.jpg" alt="">
+                <p> Fold the top left corner to the right side, making the top right corner as pointy as possible.</p>
+            </div>    
+            </div>
+    
+            <div class="container  steps">
+                <center><H3>STEP 3:</H3></center>
+                <div class="container detail">
+                    <img class="steps-image" src="./toys/images/f3.jpg" alt="">
+                    <p> Unfold.</p>
+                </div>    
+                </div>
+    
+                <div class="container  steps">
+                    <center><H3>STEP 4:</H3></center>
+                    <div class="container detail">
+                        <img class="steps-image" src="./toys/images/f4.jpg" alt="">
+                        <p>Repeat Step 2 with the other corner.</p>
+                    </div>    
+                    </div>
+    
+                    <div class="container  steps">
+                        <center><H3>STEP 5:</H3></center>
+                        <div class="container detail">
+                            <img class="steps-image" src="./toys/images/f5.jpg" alt="">
+                            <p>Unfold.</p>
+                        </div>    
+                        </div>
+    
+                        <div class="container  steps">
+                            <center><H3>STEP 6:</H3></center>
+                            <div class="container detail">
+                                <img class="steps-image" src="./toys/images/f6.jpg" alt="">
+                                <p>Fold back the top from where the "X" creases meet.</p>
+                            </div>    
+                            </div>
+    
+                            <div class="container  steps">
+                                <center><H3>STEP 7:</H3></center>
+                                <div class="container detail">
+                                    <img class="steps-image" src="./toys/images/f7.jpg" alt="">
+                                    <p>Unfold the top.</p>
+                                </div>    
+                                </div>
+                                <div class="container  steps">
+                                    <center><H3>STEP 8:</H3></center>
+                                    <div class="container detail">
+                                        <img class="steps-image" src="./toys/images/f8.jpg" alt="">
+                                        <p>ring the creases together to form a triangle at the top.</p>
+                                    </div>    
+                                    </div>
+    
+                                    <div class="container  steps">
+                                        <center><H3>STEP 9:</H3></center>
+                                        <div class="container detail">
+                                            <img class="steps-image" src="./toys/images/f9.jpg" alt="">
+                                            <p> Fold the left corner of the triangle to the top of the triangle.</p>
+                                        </div>    
+                                        </div>
+    
+                                        <div class="container  steps">
+                                            <center><H3>STEP 10:</H3></center>
+                                            <div class="container detail">
+                                                <img class="steps-image" src="./toys/images/f10.jpg" alt="">
+                                                <p>Repeat with the right corner.</p>
+                                            </div>    
+                                            </div>
+    
+                                            <div class="container  steps">
+                                                <center><H3>STEP 11:</H3></center>
+                                                <div class="container detail">
+                                                    <img class="steps-image" src="./toys/images/f11.jpg" alt="">
+                                                    <p>Fold the sides to the center.</p>
+                                                </div>    
+                                                </div>
+    
+                                                <div class="container  steps">
+                                                    <center><H3>STEP 12:</H3></center>
+                                                    <div class="container detail">
+                                                        <img class="steps-image" src="./toys/images/f12.jpg" alt="">
+                                                        <p>Fold the bottom corners to the corners of the "diamond" .</p>
+                                                    </div>    
+                                                    </div>
+    
+                                                    <div class="container  steps">
+                                                        <center><H3>STEP 13:</H3></center>
+                                                        <div class="container detail">
+                                                            <img class="steps-image" src="./toys/images/f13.jpg" alt="">
+                                                            <p>Fold the bottom rectangle in half.</p>
+                                                        </div>    
+                                                        </div>
+    
+                                                        <div class="container  steps">
+                                                            <center><H3>Last Step:</H3></center>
+                                                            <div class="container detail">
+                                                        
+                                                                <p>Turn the frog over and add some eyeballs. Press down on the edge of the back to make it jump!
+                                                                   </p>
+                                                                    <img class="steps-image-1" src="./toys/images/f14.jpg" alt="">
+                                                            </div>    
+                                                            </div>                     
+                                                            <div class="container" style="width: 100%; height: 200px;"></div>
+                            
+                                                          </div>
+              
+          
+                     
+          
+                                    
+                               
+                                     
+                                                      
+                                                                    
+                                             
+              
+                        
+    
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+                    
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+               integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+             </script>                      
+</body>
+</html>

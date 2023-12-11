@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hat | Origami for All</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      @media  screen and (max-width: 992px) {
+      .navbar{
+        height: 85px;
+      }
+      .sidebar{
+        margin-top: 85px;
+      }
+    
+    }
+    @media screen and (max-width:990px) and (min-width: 751px) {
+    .main-content{
+      margin-left: auto;
+      margin-right: 100px;
+    }
+    }
+    @media  screen and (max-width: 992px) and (min-width: 541px) {
+      .navbar{
+        height: 85px;
+      }
+      .sidebar{
+        margin-top: 85px;
+      }
+       .detail{
+        height: 150px;
+       }
+       .detail p{
+        font-size: 13px;
+       }
+       .steps-image{
+        height: 60%;
+        width: 20%;
+      }
+    
+      .steps-image-1{
+        height: 60%;
+        width: 20%;
+      }
+      .animals{
+        padding-top: 85px;
+        
+      }
+    
+    }
+    @media screen and (max-width: 540px) {
+      *{
+        font-size: 10px;
+      }
+      .detail{
+        height: 100px;
+      }
+      .steps-image{
+        height: 70%;
+        width: 20%;
+      }
+      .steps-image-1{
+        height: 70%;
+        width: 20%;
+      }
+    }
+    
+    .animals{
+      padding-top: 85px;
+    }
+    .main-content{
+      width: 69%;
+      float: right;
+    }
+    @media screen and (max-width: 750px)
+    {
+      *{
+        font-size: 15px;
+      }
+      .sidebar{
+        display: none;
+      }
+      body{
+        background-color: #e8fcff;
+      }
+      .main-content{
+        float: none;
+       display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+      }
+    
+    
+      .steps{
+        border: none;
+        
+      }
+    .detail{
+    height: 120px;
+    }}
+    .detail{
+  border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+  <input type="checkbox" name="navbtn" id="navbtn">
+  <div class="sidebar-nav">
+    <div class="image">
+     <img src="../../images/logo/Untitled.png" alt="">
+    </div>
+    <div class="close">
+     <label for="navbtn"> <i class="fa-solid fa-xmark close-icon"></i></label>
+    </div>
+    <center>
+     <ul>
+       <li><a href="../../index.html">Home</a></li>
+       <li><a href="../../aboutus.html">About Us</a></li>
+       <li><a href="../../contact.html">Contact Us</a></li>
+       <li><a href="../../feedback.html">Feedback</a></li>
+       <li><a href="../../gallery.html">Gallery</a></li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Category 1
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           <a class="dropdown-item" href="../kids.html">Easy For Kid</a>
+           <a class="dropdown-item" href="../adult.html">Complex For Adults</a>
+        
+         </div>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Category 2
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../animal.html">Animals</a>
+          <a class="dropdown-item" href="../birds.html">Birds</a>
+          <a class="dropdown-item" href="../Tanimal.html">Terrestial Animals</a>
+          <a class="dropdown-item" href="../flower.html">Flowers</a>
+          <a class="dropdown-item" href="../toys.html">Toys</a>
+          <a class="dropdown-item" href="../basket.html">Baskets</a>
+          <a class="dropdown-item" href="../heart.html">Hearts</a>
+          <a class="dropdown-item" href="../geometry.html">Geometry</a>
+          <a class="dropdown-item" href="../sea.html">Sea Life</a>
+          <a class="dropdown-item" href="../aeroplane.html">Airplanes</a>
+         </div>
+       </li>
+     </ul>
+    </center>
+ </div>
+   <nav class="navbar navbar-expand-lg navbar-light">
+       <a class="navbar-brand ms-4" href="#"><img  src="../../images/logo/Untitled.png" height="100%" width="80px" alt="">
+       </a>
+       <a href="" class="navbar-brand ">
+         <h4 style="color: #04a2d6;">OrigamiForAll</h4>
+       </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <label for="navbtn"><span style="cursor: pointer;" class="navbar-toggler-icon "></span></label>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav ms-auto me-5">
+           <li class="nav-item active">
+             <a class="nav-link" href="../../index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../../aboutus.html">About us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../../contact.html">Contact</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="../../feedback.html">Feedback</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="../../gallery.html">Gallery</a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category 1
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="../kids.html">Easy For Kid</a>
+               <a class="dropdown-item" href="../adult.html">Complex For Adults</a>
+            
+             </div>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category 2
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="../animal.html">Animals</a>
+               <a class="dropdown-item" href="../birds.html">Birds</a>
+               <a class="dropdown-item" href="../Tanimal.html">Terrestial Animals</a>
+               <a class="dropdown-item" href="../flower.html">Flowers</a>
+               <a class="dropdown-item" href="../toys.html">Toys</a>
+               <a class="dropdown-item" href="../basket.html">Baskets</a>
+               <a class="dropdown-item" href="../heart.html">Hearts</a>
+               <a class="dropdown-item" href="../geometry.html">Geometry</a>
+               <a class="dropdown-item" href="../sea.html">Sea Life</a>
+               <a class="dropdown-item" href="../aeroplane.html">Airplanes</a>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </nav>
+
+     <div class="sidebar"><br>
+       <center><ul>
+         <li><a href="../toys.html">Toys</a></li>
+         <li><a href="../flower.html">Flowers</a></li>
+         <li><a href="../basket.html">Baskets</a></li>
+         <li><a href="../aeroplane.html">Aerolplane</a></li>
+         <li><a href="../heart.html">Hearts</a></li>
+         <li><a href="../birds.html">Birds</a></li>
+         <li><a href="../animal.html">Animals</a></li>
+         <li><a href="../geometry.html">Geometry</a></li>
+         <li><a href="../Tanimal.html">Terrestial Animals</a></li>
+         <li><a href="../sea.html">Sea Life</a></li>
+         <li><a href="../kids.html">Easy for Kids</a></li>
+         <li><a href="../adult.html">Complex for Elders</a></li>
+       </ul></center>
+     </div>
+     <div class="main-content">
+    <div class="container animals">
+        <center><h1>How to make a origami hat?</h1></center>
+        <p>Follow these instructions to create your unique origami hat. You will be learning how to craft some lovely paper hats using our creative ideas, inspiration, and artistic hands. The only material needed for this activity is a square piece of paper. It is also a kid-friendly tutorial; young children will surely accomplish this.
+            Create other paper hats in different colors to decorate your study table or your favorite spot in your room. Think of more decorations, including attractive colors, glitters, or gemstones, that are perfect for taking your origami paper hat to the next level.
+            Step 1	Step 1: Get a regular </p>
+     <div class="container  steps">
+        <center><H3>STEP 1:</H3></center>
+        <div class="container detail">
+            <img class="steps-image" src="./toys/images/h1.jpg" alt="">
+            <p>Get a regular piece of rectangular paper.</p>
+        </div>    
+        </div>
+    
+        <div class="container  steps">
+            <center><H3>STEP 2:</H3></center>
+            <div class="container detail">
+                <img class="steps-image" src="./toys/images/h2.jpg" alt="">
+                <p> Fold the paper in half lengthwise, then unfold.
+                    </p>
+                    <img class="steps-image-1" src="./toys/images/h22.jpg" alt="">
+            </div>    
+            </div>
+
+            <div class="container  steps">
+                <center><H3>STEP 2:</H3></center>
+                <div class="container detail">
+                    <img class="steps-image" src="./toys/images/h3.jpg" alt="">
+                    <p> Fold the paper in half again from top to the bottom. 
+                        </p>
+                        <img class="steps-image-1" src="./toys/images/h33.jpg" alt="">
+                </div>    
+                </div>     
+                <div class="container  steps">
+                    <center><H3>STEP 4:</H3></center>
+                    <div class="container detail">
+                        <img class="steps-image" src="./toys/images/h4.jpg" alt="">
+                        <p>  Fold the left and right corners to the center to form a triangle.
+                            </p>
+                            <img class="steps-image-1" src="./toys/images/h44.jpg" alt="">
+                    </div>    
+                    </div>  
+                    <div class="container  steps">
+                        <center><H3>STEP 5:</H3></center>
+                        <div class="container detail">
+                            <img class="steps-image" src="./toys/images/h5.jpg" alt="">
+                            <p> Fold up the bottom flap along the base of the triangle.
+                                </p>
+                                <img class="steps-image-1" src="./toys/images/h55.jpg" alt="">
+                        </div>    
+                        </div>   
+                    </div>   
+                    <div class="container  steps">
+                        <center><H3>STEP 6:</H3></center>
+                        <div class="container detail">
+                            <img class="steps-image" src="./toys/images/h6.jpg" alt="">
+                            <p> Turn the paper over.</p>
+                        </div>    
+                    </div>
+                    
+                        </div>   
+                        <div class="container  steps">
+                            <center><H3>STEP 7:</H3></center>
+                            <div class="container detail">
+                                <img class="steps-image" src="./toys/images/h7.jpg" alt="">
+                                <p> Like Step 5, fold up the bottom flap.</p>
+                            </div>    
+                        </div>
+                    </div>   
+                    <div class="container  steps">
+                        <center><H3>Last Step:</H3></center>
+                        <div class="container detail">
+                    
+                            <p>Put the hat on and you're done! Click "Like" below if you like this origami hat!
+                               </p>
+                                <img class="steps-image-1" src="./toys/images/h8.jpg" alt="">
+                        </div>    
+                        </div>
+                        <div class="container" style="width: 100%; height: 200px;"></div>
+                      </div>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+                    
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+               integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+             </script>                      
+</body>
+</html>
